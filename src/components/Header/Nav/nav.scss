@@ -1,0 +1,23 @@
+.nav {
+  background-color: #f5d133;
+  height: 3.8rem;
+  .nav-items {
+    z-index: 2;
+    position: absolute;
+    left: 0rem;
+    top: 3.6rem;
+    #personnality {
+      background-color: #e3950e;
+    }
+    #project {
+      background-color: #33A61E;
+    }
+    #contact {
+      background-color: #475BCB;
+    }
+    .nav-item {
+      padding: 1rem 1rem 2.5rem;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}

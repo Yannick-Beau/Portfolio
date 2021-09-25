@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  .header-start {
+    z-index: 1;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 50%;
+    background-color: #f5d133;
+    border-radius: 10px 0 0 0;
+    text-align: left;
+    padding: 1rem 1rem 0;
+  }
+  .header-end {
+    position: absolute;
+    z-index: 3;
+    top: 3.8rem;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 50%;
+    background-color: #fff59d;
+    margin-left: 50%;
+    padding: 1rem;
+  }
+}
+
