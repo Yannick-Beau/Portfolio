@@ -10,28 +10,28 @@ const Nav = () => (
   <nav className="nav">
     <div className="nav-items">
       <NavLink
-        to="/"
+        to="/personnalite"
         className="nav-item"
         id="personnality"
-        activeClassName="nav-item_active"
+        activeClassName="nav-item-personnality_active"
         exact
       >
         Personnalité
       </NavLink>
       <NavLink
-        to="/"
+        to="/projet"
         className="nav-item"
         id="project"
-        activeClassName="nav-item_active"
+        activeClassName="nav-item-project_active"
         exact
       >
         Projet
       </NavLink>
       <NavLink
-        to="/"
+        to="/contact"
         className="nav-item"
         id="contact"
-        activeClassName="nav-item_active"
+        activeClassName="nav-item-contact_active"
         exact
       >
         Contact

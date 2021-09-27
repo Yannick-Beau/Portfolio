@@ -3,6 +3,7 @@ header {
   
   .header-start {
     z-index: 1;
+    font-size: 1.3rem;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     width: 50%;
     background-color: #f5d133;
@@ -11,6 +12,7 @@ header {
     padding: 1rem 1rem 0;
   }
   .header-end {
+    font-size: 1.3rem;
     position: absolute;
     z-index: 4;
     top: 3.8rem;
@@ -19,6 +21,8 @@ header {
     background-color: #fff59d;
     margin-left: 50%;
     padding: 1rem;
+    animation: apparition 1s ease-out;
   }
 }
+
 

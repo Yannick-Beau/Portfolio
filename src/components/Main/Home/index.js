@@ -7,7 +7,7 @@ import './home.scss';
 // == Composant
 const Home = () => (
   <main className="home">
-    <h1>Bienvenue sur le portfolio de Yannick Beau</h1>
+    <h1>Bienvenue sur le portfolio de <span>Yannick Beau</span></h1>
   </main>
 );
 
