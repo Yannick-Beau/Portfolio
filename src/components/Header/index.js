@@ -1,6 +1,7 @@
 // == Import npm
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Switch, Route } from 'react-router';
 import { Home } from 'react-feather';
 
 // == Import
@@ -21,7 +22,11 @@ const Header = () => (
       </NavLink>
     </div>
     <Nav />
-    {/* <div className="header-end">YB</div> */}
+    <Switch>
+      <Route path="/" exact>
+        <div className="header-end">YB</div>
+      </Route>
+    </Switch>
   </header>
 );
 

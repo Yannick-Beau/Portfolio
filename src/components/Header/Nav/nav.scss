@@ -30,20 +30,22 @@
       border-radius: 15px 15px 0 0;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       &:hover {
-        top: -1.2rem;
+        top: -1rem;
       }
     }
     .nav-item-personnality_active {
-     left: 20rem !important;
+     left: 24.5rem !important;
+     top: -1rem;
      animation: personalityTurn 2s ease-out !important;
-     text-orientation: rotateY(180deg) !important;
     }
     .nav-item-project_active {
-      left: 20rem !important;
+      left: 20.1rem !important;
+      top: -1rem;
       animation: projectTurn 2s ease-out !important;
      }
      .nav-item-contact_active {
-      left: 20rem !important;
+      left: 15.1rem !important;
+      top: -1rem;
       animation: contactTurn 2s ease-out !important;
      }
   }
@@ -89,7 +91,7 @@
 }
 @keyframes personalityTurn {
   from {
-    transform:  rotateY(180deg) translateX(20rem);
+    transform:  rotateY(180deg) translateX(40rem);
   }
   50% {
     transform: translateX(0);
