@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  
+  .header-start {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 50%;
+    background-color: #e3950e;
+    border-radius: 20px 0 0 0;
+    text-align: left;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    .link-networks {
+      margin-top: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  #link-github {
+    margin-right: 1rem;
+  }
+  .header-end {
+    font-size: 1.3rem;
+    position: absolute;
+    z-index: 4;
+    top: 3.8rem;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 50%;
+    background-color: #DEB391;
+    margin-left: 50%;
+    padding: 1rem;
+    animation: apparition 1s ease-out;
+  }
+}
+
+

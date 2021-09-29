@@ -1,0 +1,126 @@
+.nav {
+  background-color: #e3950e;
+  height: 85vh;
+  border-radius: 0 0 20px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+  .nav-items {
+    z-index: 2;
+    position: absolute;
+    left: 0rem;
+    top: 4rem;
+    #personnality {
+      background-color: #33A61E;
+      left: 0rem;
+      animation: apparitionPersonality 2s ease-out;
+    }
+    #project {
+      background-color: #475BCB;
+      left: 6.7rem;
+      animation: apparitionProject 2s ease-out;
+    }
+    #contact {
+      background-color: #8F58E6;
+      left: 11.2rem;
+      animation: apparitionContact 2s ease-out;
+    }
+    .nav-item {
+      position: absolute;
+      font-size: 1.3rem;
+      padding: 1rem 1rem 3.5rem;
+      border-radius: 15px 15px 0 0;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      &:hover {
+        top: -1rem;
+      }
+    }
+    .nav-item-personnality_active {
+     left: 24.5rem !important;
+     top: -1rem;
+     animation: personalityTurn 2s ease-out !important;
+    }
+    .nav-item-project_active {
+      left: 20.1rem !important;
+      top: -1rem;
+      animation: projectTurn 2s ease-out !important;
+     }
+     .nav-item-contact_active {
+      left: 15.1rem !important;
+      top: -1rem;
+      animation: contactTurn 2s ease-out !important;
+     }
+  }
+}
+
+// ========== ANIMATION ==========
+@keyframes apparitionPersonality {
+  
+  from {
+    transform:  rotateY(180deg) translateX(-30rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg);
+  }
+}
+@keyframes apparitionProject {
+  
+  from {
+    
+    transform:  rotateY(180deg) translateX(-30rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg);
+  }
+}
+@keyframes apparitionContact{
+  
+  from {
+    transform:  rotateY(180deg) translateX(-30rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg) ;
+  }
+}
+@keyframes personalityTurn {
+  from {
+    transform:  rotateY(180deg) translateX(40rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg) ;
+  }
+}
+@keyframes projectTurn {
+  from {
+    transform:  rotateY(180deg) translateX(20rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg);
+  }
+}
+@keyframes contactTurn {
+  from {
+    transform:  rotateY(180deg) translateX(20rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  to {
+    transform:  rotateY(0deg);
+  }
+}
+
+
