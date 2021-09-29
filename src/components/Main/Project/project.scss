@@ -1,0 +1,15 @@
+.project {
+  z-index: 5;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 7.7rem;
+  width: 500px;
+  height: 78vh;
+  background-color: #B29877;
+  border-radius: 20px 0 20px 0;
+  border: 5px solid #475BCB;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+  animation: apparitionPresentation 2s ease-out;
+}
