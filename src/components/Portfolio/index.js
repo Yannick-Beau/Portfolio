@@ -7,6 +7,7 @@ import Header from '../Header';
 import Home from '../Main/Home';
 import Presentation from '../Main/Presentation';
 import Project from '../Main/Project';
+import Contact from '../Main/Contact';
 import './styles.scss';
 
 // == Composant
@@ -22,6 +23,9 @@ const Portfolio = () => (
       </Route>
       <Route path="/projet" exact>
         <Project />
+      </Route>
+      <Route path="/contact" exact>
+        <Contact />
       </Route>
     </Switch>
   </div>
