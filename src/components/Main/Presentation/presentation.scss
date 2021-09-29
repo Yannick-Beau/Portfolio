@@ -1,0 +1,86 @@
+.presentation {
+  z-index: 5;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 7.7rem;
+  width: 500px;
+  height: 78vh;
+  background-color: #B29877;
+  border-radius: 20px 0 20px 0;
+  border: 5px solid #33A61E;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+  animation: apparitionPresentation 2s ease-out;
+  .presentation-title {
+    margin: 1rem;
+    font-family: 'Carattere', cursive;
+  }
+  .presentation-content {
+    .photo {
+      margin: -0.7rem 1rem 0 0.6rem;
+      float: right;
+      width: 30%;
+      height: 80%;
+    }
+    .content-paragraph {
+      margin: 0.6rem 1rem;
+      font-weight: normal;
+      font-size: 0.8rem;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+  h2 {
+    font-family: 'Carattere', cursive;
+    margin-bottom: 1rem;
+  }
+  .softskills {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .mindset {
+      width: 50%;
+      .mindset-list {
+        margin-left: 1rem;
+        text-align: left;
+        li {
+          margin: 0.5rem;
+        }
+      }
+    }
+    
+    .techs {
+      width: 50%;
+      .tech-list {
+        display: flex;
+        flex-wrap: wrap;
+        
+        .techs-icon {
+          margin: 0.5rem;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+
+// ========== ANIMATION ==========
+@keyframes apparitionPresentation {
+    from {
+      transform:  rotateY(180deg) translateX(20rem);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    to {
+      transform:  rotateY(0deg) ;
+    }
+}

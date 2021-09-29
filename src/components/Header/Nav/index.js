@@ -12,11 +12,11 @@ const Nav = () => (
       <NavLink
         to="/personnalite"
         className="nav-item"
-        id="personnality"
-        activeClassName="nav-item-personnality_active"
+        id="presentation"
+        activeClassName="nav-item-presentation_active"
         exact
       >
-        Personnalité
+        Présentation
       </NavLink>
       <NavLink
         to="/projet"

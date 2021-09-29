@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router';
 // == Import
 import Header from '../Header';
 import Home from '../Main/Home';
-import Personnality from '../Main/Personnality';
+import Presentation from '../Main/Presentation';
 import './styles.scss';
 
 // == Composant
@@ -17,7 +17,7 @@ const Portfolio = () => (
         <Home />
       </Route>
       <Route path="/personnalite" exact>
-        <Personnality />
+        <Presentation />
       </Route>
     </Switch>
   </div>
