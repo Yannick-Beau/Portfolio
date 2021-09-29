@@ -1,5 +1,5 @@
 .nav {
-  background-color: #f5d133;
+  background-color: #e3950e;
   height: 85vh;
   border-radius: 0 0 20px 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
@@ -9,17 +9,17 @@
     left: 0rem;
     top: 4rem;
     #personnality {
-      background-color: #e3950e;
+      background-color: #33A61E;
       left: 0rem;
       animation: apparitionPersonality 2s ease-out;
     }
     #project {
-      background-color: #33A61E;
+      background-color: #475BCB;
       left: 6.7rem;
       animation: apparitionProject 2s ease-out;
     }
     #contact {
-      background-color: #475BCB;
+      background-color: #8F58E6;
       left: 11.2rem;
       animation: apparitionContact 2s ease-out;
     }

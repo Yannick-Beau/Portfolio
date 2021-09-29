@@ -2,7 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
-import { Home } from 'react-feather';
+import { Home, GitHub, Linkedin } from 'react-feather';
 
 // == Import
 import Nav from './Nav';
@@ -20,6 +20,10 @@ const Header = () => (
       >
         <Home />
       </NavLink>
+      <div className="link-networks">
+        <a id="link-github" href="https://github.com/Yannick-Beau" target="_blank" rel="noreferrer"><GitHub /></a>
+        <a id="link-linkedin" href="https://www.linkedin.com/in/yannick-beau/" target="_blank" rel="noreferrer"><Linkedin /></a>
+      </div>
     </div>
     <Nav />
     <Switch>
