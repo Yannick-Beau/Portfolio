@@ -2,11 +2,11 @@
 import React from 'react';
 
 // == Import
-import './personnality.scss';
+import './project.scss';
 
 // == Composant
 const Home = () => (
-  <main className="personnality">
+  <main className="project">
     <h1>Bienvenue sur le portfolio de <span>Yannick Beau</span></h1>
   </main>
 );
