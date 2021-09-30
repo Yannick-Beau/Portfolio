@@ -12,4 +12,82 @@
   border: 5px solid #8F58E6;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
   animation: apparitionPresentation 2s ease-out;
+  #contact-title {
+    margin: 1rem;
+    font-family: 'Carattere', cursive;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    p {
+      font-size: 0.8rem;
+      margin: 1rem;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem;
+      margin: 0.3rem 1rem;
+      #contact-mail {
+        margin-top: 0.5rem;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+      }
+      #contact-textarea {
+        margin-top: 0.5rem;
+        border: none;
+        border-radius: 20px;
+        padding: 1rem 0.5rem 1rem 1rem;
+        resize: none;
+      }
+    }
+    #contact-form-submit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      margin: 1rem 0;
+      #contact-form--button {
+        width: 13rem;
+        box-sizing: border-box;
+        background-color: #8F58E6;
+        border: #8F58E6 solid 4px;
+        padding: 0.5rem;
+        border-radius: 25px;
+
+
+        &:hover {
+          background-color: #8F58E6;
+          box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+          -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+          -moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+          border: #8F58E6 4px solid;
+        }
+      }
+      .button-Link {
+        display: flex;
+        align-items: center;
+        #button-linkto {
+          border-radius: 20px;
+          width: 13rem;
+          padding: 0.5rem;
+          height: 100%;
+          box-sizing: border-box;
+          background-color: #e3950e;
+          border: #e3950e solid 4px;
+          &:hover {
+            background-color: #e3950e;
+            box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+            -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+            -moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.85) inset;
+            border: #e3950e 4px solid;
+          }
+        }
+      }
+    }
+  }
+
+  
 }
