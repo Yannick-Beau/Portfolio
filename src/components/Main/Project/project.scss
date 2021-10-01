@@ -12,4 +12,50 @@
   border: 5px solid #475BCB;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
   animation: apparitionPresentation 2s ease-out;
+  #project-title {
+    margin-bottom: 0;
+  }
+  .project-article {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    .article-img {
+      margin: 1rem;
+      width: 300px;
+      height: 150px;
+    }
+    .article-title {
+      border-top: 1px solid grey;
+      padding-top: 1rem;
+      font-family: 'Carattere', cursive;
+      margin: 0 1rem;
+    }
+    .project-description {
+      font-size: 0.8rem;
+      text-align: justify;
+      text-justify: inter-word;
+      margin: 1rem;
+    }
+    .link-project {
+      font-size: 1rem;
+      color: #475BCB;
+    }
+    .article-tech-title {
+      border-top: 1px solid grey;
+      padding-top: 1rem;
+      font-family: 'Carattere', cursive;
+      margin: 1rem 1rem;
+    }
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .techs-icon {
+        margin: 0.5rem;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
 }
